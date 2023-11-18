@@ -1,0 +1,19 @@
+.users {
+    height: auto;
+    max-height: 90vh;
+    overflow-y: scroll;
+}
+
+.messsges {
+    height: auto;
+    max-height: 90vh;
+    overflow-y: hidden;
+}
+
+.row_users_chat {
+    height: 90vh;
+}
+
+.row_messages {
+    height: 85vh;
+}
