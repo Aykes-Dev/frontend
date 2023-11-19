@@ -8,7 +8,7 @@ export default function FormInputMessage() {
                 <Col xs={8} sm={8} lg={10} xl={10}>
                     <Form.Control type="text"
                         placeholder="Enter text"
-                        value='' />
+                        />
                 </Col>
                 <Col>
                     <Button type="submit">Send</Button>

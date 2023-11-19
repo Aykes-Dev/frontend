@@ -43,8 +43,8 @@ export default function UserList() {
     const users = ['Дима Спирин', 'Andrey Savostyanov', 'Vova Tsapkin', 'David David', 'Andrey Savostyanov', 'Vova Tsapkin', 'David David', 'Andrey Savostyanov', 'Vova Tsapkin', 'David David', 'Andrey Savostyanov', 'Vova Tsapkin', 'David David', 'Andrey Savostyanov', 'Vova Tsapkin', 'David David', 'Andrey Savostyanov', 'Vova Tsapkin', 'David David', ]
     return (
         <List dense={dense}>
-            {users.map((user) => (
-                <ListItem key={ user }>
+            {users.map((user, index) => (
+                <ListItem key={ index }>
                     <ListItemAvatar>
                         <Avatar {...stringAvatar(user)} />
                     </ListItemAvatar>

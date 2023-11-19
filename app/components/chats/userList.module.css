@@ -1,19 +1,19 @@
 .users {
     height: auto;
-    max-height: 90vh;
+    max-height: 85vh;
     overflow-y: scroll;
 }
 
 .messsges {
     height: auto;
-    max-height: 90vh;
+    max-height: 80vh;
     overflow-y: hidden;
 }
 
 .row_users_chat {
-    height: 90vh;
+    height: 80vh;
 }
 
 .row_messages {
-    height: 85vh;
+    height: 80vh;
 }

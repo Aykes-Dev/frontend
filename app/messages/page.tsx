@@ -10,6 +10,7 @@ import MessageList from "../components/chats/messageList";
 import FormInputMessage from "../components/chats/formText";
 
 export default function App() {
+    console.log(localStorage.getItem('token'))
     return (
         <main className="items-center justify-between vh-100">
             <NavBar />
